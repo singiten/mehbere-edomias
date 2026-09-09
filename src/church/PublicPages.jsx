@@ -1700,8 +1700,8 @@ export function DonatePage() {
               <div className="flex flex-col gap-3 text-sm">
                 {[
                   ['Bank Name', 'Commercial Bank of Ethiopia'],
-                  ['Account Name', 'Mehbere Edomias Spiritual Association'],
-                  ['Account Number', '1000-XXXX-XXXX-XX'],
+                  ['Account Name', 'Mehbere Edomias general Association'],
+                  ['Account Number', '1000693472192'],
                   ['Reference', 'Your Full Name + Phone Number'],
                 ].map(([label, val]) => (
                   <div key={label} className="flex justify-between py-2 border-b" style={{ borderColor: C.gray100 }}>
