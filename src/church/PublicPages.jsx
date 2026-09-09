@@ -160,7 +160,7 @@ export function HomePage() {
             </div>
             <div className="relative">
               <img 
-  src="https://res.cloudinary.com/dfvmoabzt/image/upload/v1788976592/chruch3_vfzysw.jpg" 
+  src="https://res.cloudinary.com/dfvmoabzt/image/upload/v1788976592/chru4_z0zgyq.jpg" 
   alt="Ethiopian Orthodox Church Ceremony / የኢትዮጵያ ኦርቶዶክስ ቤተ ክርስቲያን ሥርዓተ አምልኮ" 
   className="rounded-2xl w-full object-cover shadow-xl" 
   style={{ height: '400px' }}
@@ -223,7 +223,7 @@ export function HomePage() {
       {/* Blog Posts */}
       <section className="py-20" style={{ background: '#fff' }}>
         <div className="max-w-6xl mx-auto px-4">
-          <SectionHeading eyebrow="Teachings & News / ትምህርቶች እና ዜናዎች" title="Latest from Our Blog / ከብሎጋችን የቅርብ ጊዜ" center />
+          <SectionHeading eyebrow="Teachings & News / ትምህርቶች እና ዜናዎች" title="Latest from Our Blog " center />
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             {featuredBlogs && featuredBlogs.length > 0 ? (
               featuredBlogs.slice(0, 3).map(p => {
