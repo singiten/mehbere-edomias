@@ -135,8 +135,8 @@ export function HomePage() {
             <div>
               <SectionHeading 
                 eyebrow="ማን ነን / Who We Are" 
-                title="በኦርቶዶክስ እምነት የተባበረ ቤተሰብ" 
-                sub="ማኅበረ ኤዶምያስ በኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተ ክርስቲያን የተመዘገበ መንፈሳዊ ማኅበር ነው —  የኢትዮጵያ ኦርቶዶክስ ቤተክርስቲያንን ትውፊት በጠበቀ መልኩ ሁሉን አቀፍ የሆነ አገልግሎት ይሰጣል ።።"
+                title="ማኅበረ ኤዶሚያስ ጠቅላላ ማኅበር" 
+                sub="ማኅበረ ኤዶምያስ በኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተ ክርስቲያን ጠቅላይ ቤተ ክህነት ነሀሴ 24/2016 የተመዘገበ መንፈሳዊ ማኅበር ሲሆን  የኢትዮጵያ ኦርቶዶክስ ቤተክርስቲያንን ትውፊት በጠበቀ መልኩ ሁሉን አቀፍ  አገልግሎት ይሰጣል ።።"
               />
               <p className="text-sm leading-relaxed mb-6" style={{ color: C.gray600 }}>
                 Mehbere Edomias is a registered spiritual association of the Ethiopian Orthodox Tewahdo Church — a community of believers committed to living the ancient faith with modern intentionality.
