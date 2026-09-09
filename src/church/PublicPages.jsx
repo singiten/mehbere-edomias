@@ -136,7 +136,7 @@ export function HomePage() {
               <SectionHeading 
                 eyebrow="ማን ነን / Who We Are" 
                 title="በኦርቶዶክስ እምነት የተባበረ ቤተሰብ" 
-                sub="ማኅበረ ኤዶምያስ የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተ ክርስቲያን የተመዘገበ መንፈሳዊ ማኅበር ነው — ጥንታዊ እምነትን በዘመናዊ ቁርጠኝነት ለመኖር የተገደሉ አማኞች ማኅበረሰብ ነን።"
+                sub="ማኅበረ ኤዶምያስ በኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተ ክርስቲያን የተመዘገበ መንፈሳዊ ማኅበር ነው —  የኢትዮጵያ ኦርቶዶክስ ቤተክርስቲያንን ትውፊት በጠበቀ መልኩ ሁሉን አቀፍ የሆነ አገልግሎት ይሰጣል ።።"
               />
               <p className="text-sm leading-relaxed mb-6" style={{ color: C.gray600 }}>
                 Mehbere Edomias is a registered spiritual association of the Ethiopian Orthodox Tewahdo Church — a community of believers committed to living the ancient faith with modern intentionality.
@@ -167,7 +167,7 @@ export function HomePage() {
 />
               <div className="absolute -bottom-4 -left-4 rounded-xl p-4 shadow-lg" style={{ background: C.blue }}>
                 <p className="text-2xl font-bold" style={{ color: C.gold }}>ከ 2012 ጀምሮ</p>
-                <p className="text-xs" style={{ color: 'rgba(255,255,255,0.7)' }}>ከ6 ዓመታት በላይ አገልግሎት</p>
+                <p className="text-xs" style={{ color: 'rgba(255,255,255,0.7)' }}>ከ6 ዓመታት በላይ በአገልግሎት</p>
                 <p className="text-xs" style={{ color: 'rgba(255,255,255,0.5)' }}>Over 6 years of service</p>
               </div>
             </div>
