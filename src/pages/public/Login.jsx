@@ -127,16 +127,7 @@ const LoginPage = () => {
             </Link>
           </p>
           
-          {/* Backend Test Button */}
-          <div className="mt-2 text-center">
-            <button
-              type="button"
-              onClick={testBackendConnection}
-              className="text-xs text-gray-400 hover:text-gray-600 underline"
-            >
-              Test Backend Connection
-            </button>
-          </div>
+          
           
           {/* Error Display */}
           {error && (
