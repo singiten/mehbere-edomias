@@ -1752,6 +1752,12 @@ export function ServiceManagement() {
     type: 'Other',
     isActive: true,
     order: 0,
+    images: [],  // ← Add this
+  impact: {    // ← Add this
+    peopleServed: 0,
+    churchesSupported: 0,
+    eventsHeld: 0,
+  },
   });
 
   useEffect(() => {
@@ -1794,6 +1800,12 @@ export function ServiceManagement() {
         type: 'Other',
         isActive: true,
         order: 0,
+        images: [],  // ← Add this
+  impact: {    // ← Add this
+    peopleServed: 0,
+    churchesSupported: 0,
+    eventsHeld: 0,
+  },
       });
       fetchServices();
     } catch (error) {
@@ -1847,6 +1859,7 @@ export function ServiceManagement() {
     );
   }
 
+
   return (
     <div className="min-h-screen" style={{ background: C.gray50 }}>
       <div className="max-w-7xl mx-auto px-4 py-10">
@@ -1862,6 +1875,12 @@ export function ServiceManagement() {
               type: 'Other',
               isActive: true,
               order: 0,
+              images: [],  // ← Add this
+  impact: {    // ← Add this
+    peopleServed: 0,
+    churchesSupported: 0,
+    eventsHeld: 0,
+  },
             });
             setShowModal(true);
           }}>

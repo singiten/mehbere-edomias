@@ -15,6 +15,7 @@ import {
   BlogPage, 
   BlogDetailPage, 
   SermonsPage, 
+  ServiceDetailPage,
   DonatePage, 
   ContactPage 
 } from './church/PublicPages';
@@ -44,7 +45,7 @@ const NO_FOOTER = [
   '/admin/members',
   '/admin/donations',
   '/admin/content',
-  '/admin/services',  // ← Add this
+  '/admin/services',  
   '/admin/reports',
 ];
 
@@ -169,6 +170,7 @@ function MainApp() {
         <Route path="/" element={<PageWrapper><HomePage /></PageWrapper>} />
         <Route path="/about" element={<PageWrapper><AboutPage /></PageWrapper>} />
         <Route path="/services" element={<PageWrapper><ServicesPage /></PageWrapper>} />
+        <Route path="/services/:serviceId" element={<DetailPageWrapper><ServiceDetailPage /></DetailPageWrapper>} />
         <Route path="/what-we-do" element={<PageWrapper><ServicesPage /></PageWrapper>} />
         
         {/* Events Routes */}

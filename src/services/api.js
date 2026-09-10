@@ -158,12 +158,18 @@ export const services = {
   create: (data) => authApiClient.post('/services', data),
   update: (id, data) => authApiClient.put(`/services/${id}`, data),
   delete: (id) => authApiClient.delete(`/services/${id}`),
+  // NEW: Image management endpoints
+  addImage: (id, data) => authApiClient.post(`/services/${id}/images`, data),
+  removeImage: (id, imageId) => authApiClient.delete(`/services/${id}/images/${imageId}`),
+  // NEW: Service stats
+  getStats: () => authApiClient.get('/services/stats/overview'),
 };
 
 // ============ PUBLIC ENDPOINTS (Uses publicApiClient - NO token) ============
 export const publicApi = {
   getHistory: () => publicApiClient.get('/public/history').then(extractData),
   getServices: () => publicApiClient.get('/public/services').then(extractData),
+  getServiceById: (id) => publicApiClient.get(`/public/services/${id}`).then(extractData), // ← NEW
   getWhatWeDo: () => publicApiClient.get('/public/what-we-do').then(extractData),
   getContact: () => publicApiClient.get('/public/contact').then(extractData),
   getHomepage: () => publicApiClient.get('/public/homepage').then(extractData),
